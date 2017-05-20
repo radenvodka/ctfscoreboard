@@ -1,0 +1,26 @@
+peserta   : id , username    , password , universitas , status (1/2)
+flag 	  : id , flag        , peserta_id   , poin
+flag_temp : id , peserta_id  , flag   , time
+score 	  : id , perserta_id , score  , time
+
+
+admin     : id , username    , password 
+category  : id , informasi   ,rules	,prize
+posted    : id , isi , category_id
+
+Final FIT 2017
+
+
+
+
+A -> B
+
+Tim A telah mendapatkan Flag (score : 120)
+
+last_submit = id , nama_soal , perserta_id , score , time 
+
+jika flag punya tim sendiri dia gak bisa submit 
+jika flag sudah di submit oleh tim , tidak akan bisa di submit lagi flag 2x 
+
+
+peserta =  id , perserta_id , score , time
